@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Poppins", sans-serif;
+  color-scheme: dark;
+}
+
+.bg-gradient {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: linear-gradient( 85.2deg,  rgba(33,3,40,1) 7.5%, rgba(65,5,72,1) 88.7% );
+ 
+  background-size: cover; /* Ensures the background covers the entire space */
+  background-repeat: no-repeat; /* Prevents the background from repeating */
+}
+
+@font-face {
+  font-family: 'CustomFont';
+  src: url('/Circular/CircularStd-Black.otf') format('opentype'),
+       url('/Circular/CircularStd-BlackItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.custom-font {
+  font-family: 'CustomFont', sans-serif; /* Use your custom Circular font */
+}
+
+/* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); */
+.kanit-thin {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
