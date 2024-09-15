@@ -28,7 +28,7 @@ Insta Fake Account Detection is Machine Learning Project developed for the Big D
 3. Start Server:
 	```bash
 	npm run dev
-The Application should be running on the https://http://localhost:5173/
+The Application should be running on the http://localhost:5173/
 
 
 ###  **Save and Commit the Changes**:
@@ -39,3 +39,6 @@ Once you’re satisfied with the edits:
   git commit -m "Updated README with sections and professional formatting"
   git push origin main
 
+![Statistical probability of account being fake](https://github.com/user-attachments/assets/7f98dc64-902b-462b-b63b-e2605de56896)
+
+![Sniffect features](https://github.com/user-attachments/assets/75af465b-af8e-4a89-942a-e04a0e05529f)
